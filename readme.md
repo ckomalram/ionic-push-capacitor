@@ -3,6 +3,7 @@
 * [OneSignal](https://app.onesignal.com/apps/56036cdd-f2d4-4adb-92db-45b04052dd94)
 * [Firebase](https://console.firebase.google.com/u/0/project/ionic-pushapp-19f27/settings/cloudmessaging?hl=es-419)
 * [Native docs](https://ionicframework.com/docs/v3/native/onesignal/)
+https://github.com/ionic-team/ionic-storage
  
 # comandos de consola utilizados
 * ionic start
@@ -37,5 +38,12 @@
 * cordova platform add android
 
 
-Error 'Plugin-Version' of 'unspecified' for 'com.android.build.gradle.AppPlugin@14d3f8f5' is not a valid version number
+
+# # NOTA DE VERSIONES IMPORTANTES:
+A la fecha de hoy, junio 2022, para poder utilizar bien sin problemas el one signal, se deben utilziar versiones puntuales:
+*  "onesignal-cordova-plugin": "^2.11"
+*  "@ionic-native/onesignal": "^5.27.0",
+
+> Error 'Plugin-Version' of 'unspecified' for 'com.android.build.gradle.AppPlugin@14d3f8f5' is not a valid version number
+> Los plugins  de cordoba de awesome que van con ionic v6 no están funcionando bien...
 
